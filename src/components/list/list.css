@@ -1,0 +1,23 @@
+.gpt3__list p {
+    color: white;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+.gpt3__list ul {
+    list-style: none;
+    display: flex;
+    height: 180px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.gpt3__list ul li p {
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: left;
+    margin-bottom: 0;
+}

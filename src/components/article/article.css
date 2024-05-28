@@ -1,0 +1,35 @@
+.gpt3__article {
+    width: 100%;
+    height: 100%;
+    background: var(--color-blog);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top-left-radius: 50px;
+    cursor: pointer;
+}
+.gpt3__article-image {
+    width: 100%;
+    height: 40%;
+}
+.gpt3__article-image img {
+    width: 100%;
+    height: 100%;
+}
+.gpt3__article-text {
+    color: white;
+    font-family: var(--font-family);
+    text-align: left;
+    padding: 2rem 0 0 1.2rem;
+}
+.gpt3__article-text h2 {
+    font-size: 25.11px;
+    font-weight: 800;
+    line-height: 30.29px;
+    padding-bottom: 15rem;
+}
+.gpt3__article-text p{ 
+    font-size: 11.65px;
+    font-weight: 700;
+    line-height: 34.95px;
+}
